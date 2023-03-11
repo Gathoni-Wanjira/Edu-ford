@@ -1,6 +1,7 @@
-body {
+* {
     margin:0;
     padding:0;
+    
 }
 
 .header {
@@ -9,4 +10,8 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+    background-image: linear-gradient(rgba(4,9,30,0.7)),(rgba(4,9,30,0.7)),url("Images/background.jpg");
+    
 }
+
+
