@@ -11,8 +11,22 @@
     background-size: cover;
     position: relative; 
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/Images/background.jpg");
-    /* background-color: cadetblue; */
     background-repeat: no-repeat;
+
+}
+
+.nav-links {
+    display: flex; 
+    float: right;
+    padding: 2%, 6%;
+    justify-content: space-between;
+    align-items:center;
+
+
+
+
+
+
 
 }
 
