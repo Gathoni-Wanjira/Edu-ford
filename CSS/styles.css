@@ -119,6 +119,7 @@ nav .fa {
         font-size: 20px;
     }
 
+
     .nav-links ul li {
         display: block;
     }
@@ -129,11 +130,12 @@ nav .fa {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: 0;
         text-align: left;
         z-index: 2;
 
     }
+
 
     nav .fa {
         display: block;
@@ -145,9 +147,10 @@ nav .fa {
 
     }
 
-    /* .nav-links ul {
+    .nav-links ul {
         padding: 30px;
 
 
-    } */
+    }
 }
+
