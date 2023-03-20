@@ -55,7 +55,7 @@ nav img {
     width: 0%;
     height: 2px;
     display: block;
-    margin: auto;
+    margin: auto; 
     background: #f44336;
     transition: 0.5s;
 
@@ -132,7 +132,7 @@ nav .fa {
         top: 0;
         right: 0;
         text-align: left;
-        z-index: 2;
+        z-index: 2; 
 
     }
 
