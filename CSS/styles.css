@@ -137,7 +137,7 @@ nav .fa {
     }
 
 
-    nav .fa {
+    nav .fa{
         display: block;
         color: #fff;
         cursor: pointer;
@@ -146,6 +146,16 @@ nav .fa {
 
 
     }
+    /* nav .fa-bars{
+        display: block;
+        color: #fff;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 22px;
+
+
+    } */
+
 
     .nav-links ul {
         padding: 30px;
@@ -153,4 +163,5 @@ nav .fa {
 
     }
 }
+
 
