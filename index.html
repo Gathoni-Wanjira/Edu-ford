@@ -22,11 +22,11 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="/Images/logo.png"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="NavLinks">
 
 
                 
-                <i class="fa-sharp fa-regular fa-xmark"></i>
+                <i class="fa-sharp fa-regular fa-xmark" onclick="HideMenu()"></i>
                 <ul>
                     <li> <a href="">HOME</a></li>
                     <li> <a href="">ABOUT</a></li>
@@ -36,7 +36,7 @@
                 </ul>
             </div>
             
-            <i class="fa-regular fa-bars"></i>
+            <i class="fa-regular fa-bars" onclick="ShowMenu()"></i>
         </nav>
 
         <div class="Text-box">
@@ -51,7 +51,21 @@
         </div>
     </section>
 
+    <!-- Javascript for toggle menu -->
 
+<script>
+    var NavLinks = document.getElementById("NavLinks");
+    function ShowMenu (){
+        NavLinks.style.right = "0";
+
+    }
+    function HideMenu (){
+        NavLinks.style.right = "-200px";
+
+    }
+
+
+</script>
 </body>
 
 </html>
