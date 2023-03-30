@@ -1,10 +1,11 @@
+/* This general class styles apply to the whole website. */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 
 }
-
+/* This styling applies to the index html page which is basically the header. */
 .header {
     min-height: 100vh;
     width: 100%;
@@ -15,7 +16,7 @@
     background-repeat: no-repeat;
 
 }
-
+/* The nav contains styles applicable to the logo and the menu. */
 nav {
     display: flex;
     padding: 2% 6%;
@@ -28,6 +29,7 @@ nav img {
     width: 150px;
 
 }
+/* Nav links represent the menu since they have urls == links */
 
 .nav-links {
     flex: 1;
@@ -49,6 +51,8 @@ nav img {
     text-decoration: none;
     font-size: 13px;
 }
+/* After is normally used to add special style ..eg... used to add transition color 
+to the hovered link for 5 secs */
 
 .nav-links ul li::after {
     content: "";
@@ -66,7 +70,7 @@ nav img {
 
 
 }
-
+/* Textbox styling is header heading and paragraph being styled. */
 .Text-box {
     width: 90%;
     text-align: center;
@@ -88,7 +92,7 @@ nav img {
     font-size: 14px;
     color: #fff;
 }
-
+/* Hero button is the "Join us to learn more" button on header page */
 .hero-button {
     color: #fff;
     text-decoration: none;
@@ -108,7 +112,7 @@ nav img {
     background: #f44336;
 
 }
-
+/* This is the close icon and menu bar being put for purposes of the small screens view. */
 nav .fa-bars .fa-xmark{
     display: none;
 
@@ -154,11 +158,11 @@ nav .fa-bars .fa-xmark{
     }
 } */
 
-/* Course section styling */
+/* Course section styling.Course unless specified represents the whole course section styled. */
 .course{
     text-align: center;
     padding-top: 100px;
-    width: 50%;
+    width: 90%;
     margin: auto;
 
 
@@ -171,30 +175,32 @@ h1 {
 } 
 p {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 10px;
     line-height: 22px;
     color: #777;
 
 
 }
+/* Rows styling applies to the 3 columns of courses in general */
 .rows{
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    
+    
      
 }
 
-
- .course-column{ 
+/* Course columns specifically applies to all the 3 columns each separately. */
+ .course-column{
     flex-basis: 30%;
-     background-color: #F3DEBA; 
+    background-color: #F3DEBA; 
     border-radius: 10px;
     margin-bottom: 5%; 
     box-sizing: border-box;
-    padding:50px 10px; 
+    padding:20px 17px; 
     transition: 0.5s;
-
 
 }
 h3{
@@ -205,11 +211,20 @@ h3{
 
 
 }
-.course-column :hoover{
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-
-
+.course-column :hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
+
+/* To add media queries for better display of the rows on a small screen. The following code changes 
+the rows display from flex to column.*/
+
+
+@media( max-width:700px ){
+    .rows{
+        flex-direction: column;
+    }
+}
+
 
      
 
