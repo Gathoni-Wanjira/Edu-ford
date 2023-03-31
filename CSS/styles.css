@@ -240,14 +240,13 @@ the rows display from flex to column.*/
 
 .campus {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     margin: auto;
-    width: 90%;
+    width: 100%;
 }
 
-h1 {
+/* h1 {
     font: size 36px;
-    ;
     font-weight: 600;
 
 }
@@ -258,6 +257,48 @@ p {
     line-height: 22px;
     padding: 10px;
     color: #777;
+
+
+} */
+/* Campus images styling */
+.campus-col{
+    flex-basis: 32%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    
+
+}
+.campus-col img{
+    width: 100%;
+}
+
+/* layering country names on campus images */
+
+.layer{
+    background:transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+
+
+
+}
+.layer:hover{
+    background: rgba(226 0, 0, 0.7);
+    cursor: pointer;
+}
+.layer h3{
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    padding: 50%;
+
 
 
 }
