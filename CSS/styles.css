@@ -316,18 +316,43 @@ the rows display from flex to column.*/
     text-align: center;
     margin: auto;
     padding-top: 50px;
+    width: 80%;
 
 }
+/* Facilities img styling. */
 .facilities-rows{
     display: flex;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-top: 8%;
 
 
 } 
+.facilities-col{
+    flex-basis: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: 30px; 
 
+}
+
+.facilities-col img{
+    /* display: block; */
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+.testimonials{
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+
+}
 
 
 
