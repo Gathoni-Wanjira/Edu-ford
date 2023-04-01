@@ -192,7 +192,7 @@ p {
 }
 
 /* Rows styling applies to the 3 columns of courses in general */
-.rows {
+.course-rows {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -244,14 +244,13 @@ the rows display from flex to column.*/
     margin: auto;  
     width: 80%;
 }
- .row{
+ .campus-rows{
+    width: 100%;
     display: flex;
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 8%;
-    box-sizing: border-box;
-    /* justify-content: space-around !important; */
-    
+
 
 } 
 
@@ -263,8 +262,7 @@ the rows display from flex to column.*/
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
-    column-gap: 10px;
-    justify-content: space-between !important;
+    margin-right: 40px; 
     
 
 }
@@ -312,4 +310,24 @@ the rows display from flex to column.*/
     opacity: 1;
 
 }
+/* Facilities section*/
+
+.facilities {
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.facilities-rows{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 8%;
+
+
+} 
+
+
+
 
