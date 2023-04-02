@@ -442,7 +442,7 @@ while the div col styling applies to a specific cols. */
         font-size: 24px;
     }
 }
-/* Footer section */
+/* Footer section styling */
 .footer{
 
     text-align: center;
@@ -452,12 +452,13 @@ while the div col styling applies to a specific cols. */
 }
 .footer-fa{
     
-    color: #9e1c1c;
+color: #9e1c1c;
    display: inline-block;
    margin-right: 15px;
 
 
 }
+
 
 
 
