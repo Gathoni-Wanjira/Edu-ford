@@ -454,10 +454,14 @@ while the div col styling applies to a specific cols. */
     
 color: #9e1c1c;
    display: inline-block;
-   margin-right: 15px;
+   margin-right: 0 13px;
+   cursor: pointer;
+   padding: 18px 0;
+
 
 
 }
+
 
 
 
