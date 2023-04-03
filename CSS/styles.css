@@ -469,7 +469,7 @@ color: #9e1c1c;
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Images/background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/background.jpg");
     background-repeat: no-repeat;
     
 
@@ -561,7 +561,7 @@ while about col applies to the text col and the img col separately. */
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Images/backgroundgroupie.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/backgroundgroupie.jpg");
     background-repeat: no-repeat;
     
 
@@ -575,7 +575,7 @@ while about col applies to the text col and the img col separately. */
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Images/background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/background.jpg");
     background-repeat: no-repeat;
     
 
@@ -612,11 +612,6 @@ and finally individual columns clases for styling ease.*/
 
 
 }
-
-
-
-
-
 
 
 .blog-leftcolumn{
@@ -708,4 +703,31 @@ and finally individual columns clases for styling ease.*/
 .comment-form button{
 
     margin: 10px 0;
+}
+
+/* CONTACT PAGE */
+
+.contact-header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Images/backgroundgroupie.jpg");
+    background-repeat: no-repeat;
+    
+
+}
+.Location{
+    margin: auto;
+    width: 80%;
+    padding: 80px 0px;
+
+
+
+}
+/* you style the i-frame from the location link */
+
+.Location iframe{
+    width: 100%;
 }
