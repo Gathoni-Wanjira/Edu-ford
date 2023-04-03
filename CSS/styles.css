@@ -593,23 +593,41 @@ Also while styling always remember to always have a general section class, Then 
 and finally individual columns clases for styling ease.*/
 
 .blog-content{
-    padding :60px 0;
+    padding :80px 0;
     width: 80%;
     margin: auto;
+
+
+}
+
+.blog-row{
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+
+
 
 
 
 }
 
+
+
+
+
+
+
 .blog-leftcolumn{
     flex-basis: 65%;
+    margin-bottom: 80px;
     
 
 }
 /* Always use width and height to resize an image to desired size! */
 .blog-leftcolumn img{
-    width: 60%;
-    height: 60%;
+    width: 95%;
+    height: 35%;
     border-radius: 10px;
 
     
@@ -626,19 +644,35 @@ and finally individual columns clases for styling ease.*/
 }
 
 .blog-leftcolumn p{
-    font-weight: 300px;
-    line-height: 30px;
-   margin-right: 40%;
-    margin-left: 5px;
-    padding: 0;
+    font-weight: 400px;
+    line-height: 2em;
+    padding: 0; 
+    color: black;
+    
     
 
 }
 
 /* Post categories sections */
 .blog-rightcolumn{
+   flex-basis: 32%;
+   line-height: 35px;
+   margin-top: -8px;
     
 
+}
+.blog-rightcolumn h3{
+    color: #fff;
+    border: 1px solid #f44336;
+    background-color: #f44336;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+ 
+}
+.blog-rightcolumn div{
+    justify-content: space-between;
+    display: flex;
 
 
 
@@ -646,4 +680,3 @@ and finally individual columns clases for styling ease.*/
 
 
 }
- 
