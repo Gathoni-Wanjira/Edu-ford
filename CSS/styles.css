@@ -730,4 +730,64 @@ and finally individual columns clases for styling ease.*/
 
 .Location iframe{
     width: 100%;
+} 
+
+ .contact-box{
+    
+    margin-bottom: 100px;
+    margin-top: 35px;
+    display: flex;
+    
+
+    
+    
+
+} 
+.contact-rows{
+    display: flex; 
+    margin: auto;
+    margin-left:  30%;
+    width: 100%;
+    
+
+
+
 }
+
+ /* .contactcol-left{
+    margin-left: 0.5%;
+    margin-top: 30px;
+    width: 100%;
+    margin-right: 50px;
+     
+} 
+
+ .contactcol-right{
+        flex-basis: 100%;
+        margin-left: 20%;
+         margin-right: 10%;
+         margin-top: 30px;
+         
+        
+
+    } */
+    /* .contactcol div{
+        text-align: center;
+        display: flex;
+        margin-bottom: 40px;
+
+
+
+    }
+    .contactcol div .fa{
+        color: #f44336;
+        margin-right: 30px;
+        font-size: 28px;
+        margin: 10px; 
+
+
+
+
+    } */
+
+ 
