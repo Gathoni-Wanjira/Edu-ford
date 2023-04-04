@@ -734,34 +734,63 @@ and finally individual columns clases for styling ease.*/
 
  .contact-box{
     
-    margin-bottom: 100px;
-    margin-top: 35px;
-    display: flex;
-    
-
+    margin: auto;
+    margin-left: 150px;
     
     
 
 } 
-.contact-rows{
+/* Use i as the default class for icon styling and not fa. */
+.contact-box i{
+    color: #f44336;
+    margin-right: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Comment-box */
+.comment-box{
+    width: 50%;
+    margin-bottom: 80px;
+
+
+
+
+
+}
+
+
+
+
+/* .contact-rows{
     display: flex; 
     margin: auto;
     margin-left:  30%;
     width: 100%;
+    justify-content: space-between;
     
 
 
 
 }
 
- /* .contactcol-left{
+ .contactcol-left{
     margin-left: 0.5%;
     margin-top: 30px;
     width: 100%;
-    margin-right: 50px;
+    margin-r
+    
+    
      
 } 
-
+ /*  
  .contactcol-right{
         flex-basis: 100%;
         margin-left: 20%;
@@ -790,4 +819,4 @@ and finally individual columns clases for styling ease.*/
 
     } */
 
- 
+  */
