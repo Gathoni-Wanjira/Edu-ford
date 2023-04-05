@@ -122,10 +122,10 @@ to the hovered link for 5 secs */
 }
 
 /* This is the close icon and menu bar being put for purposes of the small screens view. */
-nav .fa-bars .fa-xmark {
+/* nav .fa-bars .fa-xmark {
     display: none;
 
-}
+} */
 
 
 /* @media(max-width:700px) {
@@ -219,8 +219,6 @@ h3 {
     font-weight: 600;
     text-align: center;
     margin: 10px 0;
-
-
 
 }
 
@@ -498,7 +496,6 @@ while about col applies to the text col and the img col separately. */
 
 
 
-
 }
 
  .about-col{
@@ -507,7 +504,6 @@ while about col applies to the text col and the img col separately. */
     /* THe fewer the columns are the higher the flex basis. */
     
     
-
 }
 
 
@@ -606,9 +602,7 @@ and finally individual columns clases for styling ease.*/
     width: 100%;
     height: 50%;
     justify-content: space-between;
-
-
-
+    margin-bottom: 100px;
 
 
 }
@@ -645,7 +639,6 @@ and finally individual columns clases for styling ease.*/
     padding: 0; 
     color: black;
     
-    
 
 }
 
@@ -679,7 +672,7 @@ and finally individual columns clases for styling ease.*/
     border: 1px solid#ccc;
     margin: 50px 0px;
     padding: 10px 20px;
-    margin-bottom: 50%;
+    margin-bottom: 50px;
     
 
 }
@@ -737,7 +730,6 @@ and finally individual columns clases for styling ease.*/
     margin: auto;
     margin-left: 150px;
     
-    
 
 } 
 /* Use i as the default class for icon styling and not fa. */
@@ -745,15 +737,7 @@ and finally individual columns clases for styling ease.*/
     color: #f44336;
     margin-right: 30px;
 
-
-
 }
-
-
-
-
-
-
 
 /* Comment-box */
 .comment-box{
@@ -761,62 +745,4 @@ and finally individual columns clases for styling ease.*/
     margin-bottom: 80px;
 
 
-
-
-
 }
-
-
-
-
-/* .contact-rows{
-    display: flex; 
-    margin: auto;
-    margin-left:  30%;
-    width: 100%;
-    justify-content: space-between;
-    
-
-
-
-}
-
- .contactcol-left{
-    margin-left: 0.5%;
-    margin-top: 30px;
-    width: 100%;
-    margin-r
-    
-    
-     
-} 
- /*  
- .contactcol-right{
-        flex-basis: 100%;
-        margin-left: 20%;
-         margin-right: 10%;
-         margin-top: 30px;
-         
-        
-
-    } */
-    /* .contactcol div{
-        text-align: center;
-        display: flex;
-        margin-bottom: 40px;
-
-
-
-    }
-    .contactcol div .fa{
-        color: #f44336;
-        margin-right: 30px;
-        font-size: 28px;
-        margin: 10px; 
-
-
-
-
-    } */
-
-  */
